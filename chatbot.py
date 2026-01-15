@@ -41,7 +41,7 @@ if file is not None:
         length_function=len
     )
     chunks = text_splitter.split_text(text)
-    # st.write(chunks)
+    st.write(chunks)
 
     # choose embeddings based on LLM selection
     if model_choice == "OpenAI GPT-3.5":
